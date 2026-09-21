@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaControlador_prototipoumg2k26;
+using CapaVista_prototipoumg2k26.Reportes;
 
 namespace CapaVista_prototipoumg2k26.Formas
 {
@@ -135,6 +136,12 @@ namespace CapaVista_prototipoumg2k26.Formas
         void CargarDatos()
         {
             combol1.llenarCombo("video", "id_video", "titulo");
+        }
+
+        private void btnImprimir_Click(object sender, EventArgs e)
+        {
+            frmReporteVideo reporte = new frmReporteVideo();
+            reporte.Show();
         }
     }
 }
