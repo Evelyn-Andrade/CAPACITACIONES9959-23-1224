@@ -338,6 +338,7 @@
             this.btnAyuda.TabIndex = 4;
             this.btnAyuda.Text = "AYUDA";
             this.btnAyuda.UseVisualStyleBackColor = true;
+            this.btnAyuda.Click += new System.EventHandler(this.btnAyuda_Click);
             // 
             // btnImprimir
             // 

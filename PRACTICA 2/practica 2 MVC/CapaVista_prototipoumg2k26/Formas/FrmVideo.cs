@@ -143,5 +143,10 @@ namespace CapaVista_prototipoumg2k26.Formas
             frmReporteVideo reporte = new frmReporteVideo();
             reporte.Show();
         }
+
+        private void btnAyuda_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "c:/AyudaRisko/CapaRisko.chm", "Cliente.html");
+        }
     }
 }
